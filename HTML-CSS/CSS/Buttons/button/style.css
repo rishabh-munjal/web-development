@@ -1,0 +1,60 @@
+.uber-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 110px;
+    cursor:pointer;
+    transition: opacity , 0.5s;
+    margin:10px;
+}
+
+.uber-button:hover{
+    opacity: 0.8;
+}
+
+.amazon-button{
+    background-color: rgb(255, 204, 0);
+    height: 40px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+    border-radius: 100px;
+    cursor:pointer;
+    margin:10px;
+
+
+}
+.amazon-button:hover{
+    background-color: rgb(229, 184, 21);
+}
+
+.github-button{
+    background-color: rgb(20, 143, 20);
+    height: 40px;
+    width: 108px;
+    margin:10px;
+    border:none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    cursor:pointer;
+
+}
+
+.github-button:hover{
+    box-shadow: 3px 3px 10px grey;
+}
+
+.bootstrap-getstarted{
+    margin: 10px;
+    background-color: purple;
+    color:white;
+    height:40px;
+    width: 110px;
+    border:none;
+    border-radius: 6px;
+    font-size: medium;
+    font-weight:bolder;
+}
+

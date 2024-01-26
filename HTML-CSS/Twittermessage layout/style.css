@@ -1,0 +1,35 @@
+.div-1{
+   
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+.profile-pic{
+  width:60px;
+  margin-right: 7px;
+}
+.profile-pic-image{
+    width: 50px;
+    border-radius: 50px;
+    height: 47px;
+}
+
+.heading{
+    width: 200px;
+    font-weight:800;
+}
+
+.message{
+  width:260px;
+  font-family:roboto;
+  font-size: 11px;
+}
+
+.usename{
+  color: grey;
+
+
+}

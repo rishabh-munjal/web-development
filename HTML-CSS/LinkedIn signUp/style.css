@@ -1,0 +1,29 @@
+.start{
+    color: grey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 5px;
+    font-size:smaller;
+}
+
+.email{
+    border-color: rgb(21, 14, 14);
+    border-width: 1px;
+    border-radius: 3px;
+    width: 230px;
+}
+
+.disclamer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-small;
+    columns: rgb(152, 148, 148);
+
+}
+
+.signup{
+    background-color: rgb(12, 125, 254);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 166px;
+    height: 30px;
+}
