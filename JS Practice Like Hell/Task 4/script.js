@@ -7,7 +7,7 @@ add.addEventListener('click', function(e) {
     
     var item = document.querySelector('#item').value; 
 
-    if (item.trim() != '') {
+    if (item.trim(it ) != '') {
         let li = document.createElement('li'); 
         li.innerHTML = `${item}`; 
         list.appendChild(li); 
