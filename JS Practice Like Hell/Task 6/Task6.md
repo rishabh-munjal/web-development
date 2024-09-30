@@ -1,0 +1,1 @@
+Create a tabbed interface Where clicking on tabs displWs different content sections without page reload.
