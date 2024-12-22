@@ -1,0 +1,18 @@
+#box1{
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin: 1px;
+}
+#box2{
+    background: rgb(41, 160, 150);
+    height: 150px;
+    width: 150px;
+    margin: 1px;
+}
+#box3{
+    background: rgb(166, 33, 124);
+    height: 150px;
+    width: 150px;
+    margin: 1px;
+}
