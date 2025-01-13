@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
-import { response } from 'express'
 
 function App() {
   const [jokes, setJokes] = useState([])
 
 
   useEffect(() =>{
-    axios.get('http://localhost:3000/')
+    axios.get('/api/jokes')
     .then((response) =>{
       setJokes(response.data)
     })
@@ -19,9 +18,9 @@ function App() {
 
   return (
     <>
-      <H1>Lets Laugh:</H1>
+      <h1>Lets Laugh : )</h1>
       {
-        jokes.map((joke , index) =>{
+        jokes.map((joke , index) =>(
 
           <div key = {joke.id}>
 
@@ -29,7 +28,7 @@ function App() {
 
           </div>
 
-        })
+        ))
       }
     </>
   )
